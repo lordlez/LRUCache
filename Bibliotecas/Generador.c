@@ -44,7 +44,7 @@ int generar_lotes_feeds(unsigned int semilla, int cantUsuarios){
     }
 
     for(i = 0; i < cantUsuarios; i++){
-        snprintf(u.usuario, sizeof(u.usuario), "User_%d", i);
+        snprintf(u.usuario, sizeof(u.usuario), "U_%04d", i);
         for(j = 0; j < POSTEOS_POR_FEED; j++){
             u.feed[j] = rand() % 100; // Concentrado en los primeros 100 posteos
         }
@@ -62,7 +62,7 @@ int generar_lotes_feeds(unsigned int semilla, int cantUsuarios){
     }
 
     for(i = 0; i < cantUsuarios; i++){
-        snprintf(u.usuario, sizeof(u.usuario), "User_%d", i);
+        snprintf(u.usuario, sizeof(u.usuario), "U_%04d", i);
         for(j = 0; j < POSTEOS_POR_FEED; j++){
             u.feed[j] = rand() % CANT_POSTEOS; // Repartido en 50.000
         }
@@ -80,7 +80,7 @@ int generar_lotes_feeds(unsigned int semilla, int cantUsuarios){
     }
 
     for(i = 0; i < cantUsuarios; i++){
-        snprintf(u.usuario, sizeof(u.usuario), "User_%d", i);
+        snprintf(u.usuario, sizeof(u.usuario), "U_%04d", i);
         for(j = 0; j < POSTEOS_POR_FEED; j++){
             u.feed[j] = rand() % CANT_POSTEOS;
         }
