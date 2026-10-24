@@ -35,6 +35,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="Bibliotecas/TDA_LRUCache.h" />
+		<Unit filename="Bibliotecas/TDA_LRUCache_P2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Bibliotecas/TDA_LRUCache_P2.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
