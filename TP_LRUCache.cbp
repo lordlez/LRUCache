@@ -31,6 +31,10 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="Bibliotecas/Generador.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Bibliotecas/Generador.h" />
 		<Unit filename="Bibliotecas/TDA_LRUCache.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -39,6 +43,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="Bibliotecas/TDA_LRUCache_P2.h" />
+		<Unit filename="Bibliotecas/Tweener.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Bibliotecas/Tweener.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
